@@ -1,0 +1,49 @@
+using System;
+
+namespace degisken;
+{
+
+class Program
+{
+static void Main(string[] args)
+{
+  int deger = 2;
+  string degisken = null;
+  string Degisken = null;
+  Console.WriteLine("");
+  byte b = 5; // 1 byte
+  sbyte c = 5; // 1 byte
+  
+  short s = 5; // 2 bytes
+  ushort us = 5; // 2 bytes
+  
+  Int16 i16 = 2; // 2 bytes
+  int i = 2; // 4 bytes
+  Int32 i32 = 2; // 4 bytes
+  Int64 i64 = 2; // 8 bytes
+  
+  uint ui = 2; // 4 bytes
+  long l = 4; // 8 bytes
+  ulong ul = 4; // 8 bytes
+  
+  float f = 5; // 4 bytes
+  double d = 5; // 8 bytes
+  decimal de = 5; // 16 bytes
+  
+  char ch = "s"; // 2 bytes
+  string ad = "Farid" // unlimited
+  
+  bool t = true;
+  bool f = false;
+  
+  DateTime dt = DateTime.Now;
+  Console.WriteLine(dt);
+  
+  object o = "x";
+  
+  string soyad = "Musayev"
+  
+  string ad_soyad = ad + " " + soyad;
+}
+}
+}
